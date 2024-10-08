@@ -3,6 +3,7 @@
 This dataset contains time-aligned data pairs from Sentinel-1 and Sentinel-2 satellite constellations, used to train a regressive Unet-like CNN to predict NDVI maps from SAR backscatter maps in "L. Liverotti, N. Ferro, L. Soli, M. Matteucci, S. Perotto, Using SAR Data as an Effective Surrogate for Optical Data in Nitrogen Variable Rate Applications: a Winter Wheat Case Study, Remote Sensing, Submitted". Specifically, we consider SAR data (SAR backscatter coefficients) and optical measurements of NDVI (Normalized Difference Vegetation Index), with a maximum acquisition gap of 3 days between the two sources and no cloud cover.
 
 Study Area
+\newline
 The SAR/optical data pairs were extracted from a wide geographical area around the wheat crop of interested, in order to create a sufficiently rich training set. The specific area is described by the WKT string POLYGON(9.448694 45.492637, 9.567333 45.492637, 9.567333 45.561565, 9.448694 45.561565, 9.448694 45.492637).
 
 Dataset Structure
