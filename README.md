@@ -4,9 +4,10 @@ This dataset contains time-aligned data pairs from Sentinel-1 and Sentinel-2 sat
 
 Study Area
 
-The SAR/optical data pairs were extracted from a wide geographical area around the wheat crop of interested, in order to create a sufficiently rich training set. The specific area is described by the WKT string POLYGON(9.448694 45.492637, 9.567333 45.492637, 9.567333 45.561565, 9.448694 45.561565, 9.448694 45.492637).
+The SAR/optical data pairs were extracted from a wide geographical area around the wheat crop of interested over the last two wheat growing season (2022-2023, 2023-2024), in order to create a sufficiently rich training set. The specific area is described by the WKT string POLYGON(9.448694 45.492637, 9.567333 45.492637, 9.567333 45.561565, 9.448694 45.561565, 9.448694 45.492637).
 
 Dataset Structure
+
 For each SAR/optical data pair, nine patches of size 128 × 128 pixels were extracted, with a spatial resolution of 10 m × 10 m per pixel. One patch includes the wheat field of interest, while the remaining eight patches cover purely agricultural areas outside the target field.
 
 Coregistered Maps
