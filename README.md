@@ -14,9 +14,7 @@ Coregistered Maps
 For each patch, four coregistered maps were retrieved:
 
 NDVIo: Normalized Difference Vegetation Index derived from Sentinel-2 optical data.
-
 LAIo: Leaf Area Index.
-
 SAR Σ: VH+VV SAR backscatter coefficients from Sentinel-1.
 
 The coregistered maps were created with the aim of providing a comprehensive and diverse dataset for training models based on multi-source data, useful for crop monitoring and agricultural management applications.
