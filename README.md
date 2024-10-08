@@ -11,6 +11,7 @@ Dataset Structure
 For each SAR/optical data pair, nine patches of size 128 × 128 pixels were extracted, with a spatial resolution of 10 m × 10 m per pixel. One patch includes the wheat field of interest, while the remaining eight patches cover purely agricultural areas outside the target field.
 
 Coregistered Maps
+
 For each patch, four coregistered maps were retrieved:
 
 - NDVIo: Normalized Difference Vegetation Index derived from Sentinel-2 optical data.
